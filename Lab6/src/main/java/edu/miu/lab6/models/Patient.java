@@ -24,4 +24,15 @@ public class Patient {
     private Address address;
     @OneToMany(mappedBy = "patient")
     private List<Appointment> appointments;
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "patientId=" + patientId +
+                ", patientNo='" + patientNo + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address.toString() + '\'' +
+                '}';
+    }
 }
