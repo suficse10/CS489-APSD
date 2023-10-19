@@ -10,6 +10,7 @@
         <module name="Lab01b" />
         <module name="elibrary" />
         <module name="eLibrary" />
+        <module name="Lab7-REST-API" />
         <module name="Lab6" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Lab6" options="-parameters" />
+      <module name="Lab7-REST-API" options="-parameters" />
       <module name="eLibrary" options="-parameters" />
       <module name="elibrary" options="-parameters" />
     </option>
