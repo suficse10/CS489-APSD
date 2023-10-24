@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Lab10-Docker/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,9 +11,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lab01b" />
-        <module name="elibrary" />
         <module name="eLibrary" />
+        <module name="Lab10-Docker" />
         <module name="Lab7-REST-API" />
+        <module name="elibrary" />
         <module name="Lab6" />
         <module name="Lab9-Security-API" />
       </profile>
